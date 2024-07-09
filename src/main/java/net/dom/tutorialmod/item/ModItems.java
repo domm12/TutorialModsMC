@@ -1,6 +1,7 @@
 package net.dom.tutorialmod.item;
 
 import net.dom.tutorialmod.TutorialMod;
+import net.dom.tutorialmod.item.custom.FuelItem;
 import net.dom.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,6 +23,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", 
         () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+
+    public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone", 
+        () -> new FuelItem(new Item.Properties(), 400));
     
     public static final RegistryObject<Item> LOW_QUALITY_MINOR_VITALITY_PILL = ITEMS.register(
         "low_quality_minor_vitality_pill", () -> new Item(new Item.Properties().food(ModFoods.LOW_QUALITY_MINOR_VITALITY_PILL)));
