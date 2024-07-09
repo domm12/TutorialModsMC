@@ -25,6 +25,10 @@ public class ModCreativeModTabs {
 
             pOutput.accept(ModItems.STRAWBERRY.get());
 
+            pOutput.accept(ModItems.LOW_QUALITY_MINOR_VITALITY_PILL.get());
+            pOutput.accept(ModItems.MID_QUALITY_MINOR_VITALITY_PILL.get());
+            pOutput.accept(ModItems.HIGH_QUALITY_MINOR_VITALITY_PILL.get());
+
             pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
             pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 

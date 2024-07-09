@@ -22,8 +22,15 @@ public class ModItems {
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry", 
         () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
-
-    public static void register(IEventBus eventBus){
+    
+    public static final RegistryObject<Item> LOW_QUALITY_MINOR_VITALITY_PILL = ITEMS.register(
+        "low_quality_minor_vitality_pill", () -> new Item(new Item.Properties().food(ModFoods.LOW_QUALITY_MINOR_VITALITY_PILL)));
+    public static final RegistryObject<Item> MID_QUALITY_MINOR_VITALITY_PILL = ITEMS.register(
+        "mid_quality_minor_vitality_pill", () -> new Item(new Item.Properties().food(ModFoods.MID_QUALITY_MINOR_VITALITY_PILL)));
+    public static final RegistryObject<Item> HIGH_QUALITY_MINOR_VITALITY_PILL = ITEMS.register(
+        "high_quality_minor_vitality_pill", () -> new Item(new Item.Properties().food(ModFoods.HIGH_QUALITY_MINOR_VITALITY_PILL)));
+    
+public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
 }
