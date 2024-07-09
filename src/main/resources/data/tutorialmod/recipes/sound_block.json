@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "#o#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_ingot"
+        },
+        "o": {
+            "item": "tutorialmod:sapphire"
+        }
+    },
+    "result": {
+        "item": "tutorialmod:sound_block"
+    }
+}
