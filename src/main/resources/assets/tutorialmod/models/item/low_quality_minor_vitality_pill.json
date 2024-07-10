@@ -1,6 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures":{
-        "layer0": "tutorialmod:item/low_quality_minor_vitality_pill"
-    }
-}

@@ -27,7 +27,7 @@ public class ModBlockStateProvider extends BlockStateProvider{
         blockWithItem(ModBlocks.SOUND_BLOCK);
     }
 
-    private void blockWithItem(RegistryObject<Block> RegistryObjectBlock){
-        simpleBlockItem(RegistryObjectBlock.get(), cubeAll(RegistryObjectBlock.get()));
+    private void blockWithItem(RegistryObject<Block> blockRegistryObject){
+        simpleBlockWithItem(blockRegistryObject.get(), cubeAll(blockRegistryObject.get()));
     }
 }
